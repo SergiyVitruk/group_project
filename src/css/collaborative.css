@@ -1,0 +1,25 @@
+.collaborative-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 141px;
+}
+
+.collaborative-subcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1158px) {
+  .collaborative-container {
+    flex-direction: row-reverse;
+    gap: 84px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+  }
+  .collaborative-container img {
+    width: 540px;
+    height: 500px;
+  }
+}

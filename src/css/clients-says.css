@@ -1,0 +1,86 @@
+.clients-says-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  max-width: 367px;
+  align-items: center;
+}
+
+.clients-says-txt {
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.clients-says-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.clients-says-list-item {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 28px 26px 24px 26px;
+}
+
+.clients-says-list-item-mark {
+  padding-left: 2px;
+  margin-bottom: 16px;
+}
+
+.clients-says-list-item-txt {
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #32454f;
+  margin-bottom: 16px;
+}
+
+.clients-says-list-item-subcontainer {
+  display: flex;
+  gap: 14px;
+}
+
+.clients-says-list-item-subcontainer-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.clients-says-list-item-subcontainer-title {
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+.subcontainer-txt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+
+@media screen and (min-width: 1158px) {
+  .clients-says-container {
+    max-width: 1150px;
+  }
+  .clients-says-txt {
+    max-width: 537px;
+    margin-bottom: 40px;
+  }
+  .clients-says-list {
+    flex-direction: row;
+    gap: 64px;
+  }
+
+  .clients-says-list-item {
+    width: calc((100% - 128px) / 3);
+    padding: 28px 26px;
+  }
+  .clients-says-list-item-txt {
+    color: #737373;
+  }
+}

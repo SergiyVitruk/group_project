@@ -1,0 +1,125 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 138px;
+}
+
+.product-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.product-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 240px;
+}
+
+.product-icon-container {
+  border-radius: 19px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 24px;
+}
+
+.product-green-container {
+  background-color: #02897a;
+  padding: 16px 19px;
+}
+
+.product-blue-container {
+  background-color: #4d8dff;
+  padding: 16px;
+}
+
+.product-violet-container {
+  background-color: #740a76;
+  padding: 16px 17px;
+}
+
+.product-red-container {
+  background-color: #f03e3d;
+  padding: 16px 18px;
+}
+
+.product-icon {
+  fill: #fff;
+}
+
+.product-subtitle {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 8px;
+  justify-content: center;
+}
+
+.product-txt {
+  line-height: 1.63;
+  text-align: center;
+}
+
+.btn-sun {
+  font-weight: 700;
+  color: #fff;
+  padding: 15px 33px;
+  border-radius: 4px;
+  background-color: #02897a;
+}
+
+@media screen and (min-width: 1158px) {
+  .product-container {
+    padding-bottom: 50px;
+  }
+  .product-title {
+    max-width: 500px;
+    margin-bottom: 50px;
+  }
+  .product-list {
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  .product-list-item {
+    width: calc((100% - 90px) / 4);
+    align-items: start;
+  }
+  .product-icon-container {
+    width: 54px;
+    height: 54px;
+    margin-bottom: 26px;
+  }
+  .product-green-container {
+    padding: 18px 22px;
+  }
+
+  .product-blue-container {
+    padding: 18px 18px;
+  }
+
+  .product-violet-container {
+    padding: 18px 19px;
+  }
+
+  .product-red-container {
+    padding: 18px 20px;
+  }
+  .product-subtitle {
+    margin-bottom: 13px;
+  }
+  .product-txt {
+    text-align: start;
+  }
+}
